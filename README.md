@@ -10,16 +10,28 @@ aws configure
 ## Steps
 
 - Download some sample data. Use this to download yesterday's impressions logs.
-    ./download_sample_data.sh
+
+    *./download_sample_data.sh*
+
 - Setup NSQ
-    ./nsq_setup.sh
+
+    *./nsq_setup.sh*
+
 - Start NSQ
-    ./nsq_start.sh
+
+    *./nsq_start.sh*
+
 - Send the sample data on NSQ
-    ./send_sample_data_to_nsq.sh
+
+    *./send_sample_data_to_nsq.sh*
+
 - Optionally consume the data
-    ./consumer.sh
+
+    *./consumer.sh*
+
 - Stop NSQ
-    ./nsq_stop.sh
+
+    *./nsq_stop.sh*
+
 
 You'll be able to access NSQAdmin on http://localhost:4171.
