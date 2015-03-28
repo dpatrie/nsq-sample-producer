@@ -3,9 +3,11 @@ Sample producer for proof of concept
 
 ## Prerequisite
 Having the [aws-cli tool](http://aws.amazon.com/cli/) installed and configured with the ADX creds.
+
 On Ubuntu:
-sudo apt-get install aws-cli
-aws configure
+
+* sudo apt-get install aws-cli
+* aws configure
 
 ## Steps
 
